@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-06T12:59:15.536-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/people"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="John Doe"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <byline
+                    cq:styleIds="[1730916161485]"
+                    jcr:created="{Date}2024-11-06T12:53:23.252-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-06T12:59:11.489-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/byline"
+                    alt="John Doe"
+                    altValueFromDAM="false"
+                    email="john.doe@gmail.com"
+                    fileReference="/content/dam/wknd/en/contributors/John-Doe.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    name="John Doe"
+                    occupations="[Photographer,YouTuber]"
+                    peopleId="1002"
+                    phoneNumber="212 555-1234"
+                    summaryBiography="John Doe is a talented photographer and YouTuber with a passion for capturing the world through his lens. With an eye for detail and a knack for storytelling, John’s work spans from stunning landscapes to intimate portraits, all infused with a sense of adventure and creativity. On his YouTube channel, he shares behind-the-scenes looks at his photography process, tips for aspiring photographers, and travel vlogs that bring his journeys to life. John’s approachable style and dedication to his craft have earned him a loyal following, making him a go-to source for inspiration and expert advice in the world of visual storytelling."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

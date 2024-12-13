@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-06T13:19:58.859-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/people"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Jane Smith"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <byline
+                    cq:styleIds="[1730916161485]"
+                    jcr:created="{Date}2024-11-06T13:18:06.626-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-06T13:20:34.562-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/byline"
+                    alt="Jane Smith"
+                    altValueFromDAM="false"
+                    email="jane.smith@gmail.com"
+                    fileReference="/content/dam/wknd/en/contributors/Jane-Smith.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    name="Jane Smith"
+                    occupations="Blogger"
+                    peopleId="1003"
+                    phoneNumber="212 555-1234"
+                    summaryBiography="Jane Smith is a dedicated blogger with a talent for weaving personal experiences and insightful observations into relatable stories. Through her blog, she shares her thoughts on topics ranging from lifestyle and wellness to travel and self-improvement. Known for her honest, down-to-earth writing style, Jane connects with readers by tackling everyday challenges and celebrating small joys. Her blog has become a go-to space for readers seeking inspiration, practical advice, and a fresh perspective on balancing life’s many facets. Jane’s authentic voice and thoughtful reflections make her a standout voice in the blogging community."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

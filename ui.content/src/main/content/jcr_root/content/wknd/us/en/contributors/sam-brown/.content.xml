@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-06T13:17:37.965-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/people"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sam Brown"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <byline
+                    cq:styleIds="[1730916161485]"
+                    jcr:created="{Date}2024-11-06T13:11:05.646-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-06T13:17:37.964-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/byline"
+                    alt="Sam Brown"
+                    altValueFromDAM="false"
+                    email="sam.brown@gmail.com"
+                    fileReference="/content/dam/wknd/en/contributors/Sam-Brown.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    name="Sam Brown"
+                    occupations="Photographer"
+                    peopleId="1004"
+                    phoneNumber="646 555-4567"
+                    summaryBiography="Sam Brown is a skilled photographer celebrated for his ability to capture powerful, emotive images across various genres, from portrait to landscape photography. With a unique perspective and a refined eye for composition, Sam’s work highlights the beauty in everyday scenes and the raw essence of his subjects. His photography has been featured in numerous exhibitions and publications, earning him a reputation for storytelling through still images. Sam’s dedication to his craft and passion for exploring light, texture, and mood make him an influential voice in contemporary photography."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

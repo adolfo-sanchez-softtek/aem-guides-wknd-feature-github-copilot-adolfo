@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/wknd"
+        cq:redirectTarget="/content/wknd/us/en"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WKND Sites Project"
+        sling:configRef="/conf/wknd"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="wknd/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+    <data jcr:primaryType="nt:unstructured">
+        <people jcr:primaryType="nt:unstructured">
+            <Stacey_Roswells
+                jcr:primaryType="nt:unstructured"
+                age="{Long}25"
+                name="Stacey Roswells">
+                <address
+                    jcr:primaryType="nt:unstructured"
+                    city="New York"
+                    street="951 New St"
+                    zip="98765"/>
+                <phoneNumbers jcr:primaryType="nt:unstructured">
+                    <mobile
+                        jcr:primaryType="nt:unstructured"
+                        number="212 555-9876"
+                        type="mobile"/>
+                    <home
+                        jcr:primaryType="nt:unstructured"
+                        number="212 555-1234"
+                        type="home"/>
+                    <fax
+                        jcr:primaryType="nt:unstructured"
+                        number="646 555-4567"
+                        type="fax"/>
+                </phoneNumbers>
+                <occupations
+                    jcr:primaryType="nt:unstructured"
+                    occupation1="Photographer"
+                    occupation2="Blogger"
+                    occupation3="YouTuber"/>
+            </Stacey_Roswells>
+            <John_Doe
+                jcr:primaryType="nt:unstructured"
+                age="{Long}30"
+                name="John Doe">
+                <address
+                    jcr:primaryType="nt:unstructured"
+                    city="Anytown"
+                    street="123 Main St"
+                    zip="12345"/>
+                <phoneNumbers jcr:primaryType="nt:unstructured">
+                    <home
+                        jcr:primaryType="nt:unstructured"
+                        number="212 555-1234"
+                        type="home"/>
+                    <fax
+                        jcr:primaryType="nt:unstructured"
+                        number="646 555-4567"
+                        type="fax"/>
+                </phoneNumbers>
+                <occupations
+                    jcr:primaryType="nt:unstructured"
+                    occupation1="Photographer"
+                    occupation2="YouTuber"/>
+            </John_Doe>
+            <Jane_Smith
+                jcr:primaryType="nt:unstructured"
+                age="{Long}25"
+                name="Jane Smith">
+                <address
+                    jcr:primaryType="nt:unstructured"
+                    city="Othertown"
+                    street="456 Oak St"
+                    zip="67890"/>
+                <phoneNumbers jcr:primaryType="nt:unstructured">
+                    <home
+                        jcr:primaryType="nt:unstructured"
+                        number="212 555-1234"
+                        type="home"/>
+                </phoneNumbers>
+                <occupations
+                    jcr:primaryType="nt:unstructured"
+                    occupation1="Blogger"/>
+            </Jane_Smith>
+            <Sam_Brown
+                jcr:primaryType="nt:unstructured"
+                age="{Long}28"
+                name="Sam Brown">
+                <address
+                    jcr:primaryType="nt:unstructured"
+                    city="Newcity"
+                    street="789 Pine St"
+                    zip="10112"/>
+                <phoneNumbers jcr:primaryType="nt:unstructured">
+                    <fax
+                        jcr:primaryType="nt:unstructured"
+                        number="646 555-4567"
+                        type="fax"/>
+                </phoneNumbers>
+                <occupations
+                    jcr:primaryType="nt:unstructured"
+                    occupation1="Photographer"/>
+            </Sam_Brown>
+            <Fernando_Ramirez
+                jcr:primaryType="nt:unstructured"
+                age="{Long}34"
+                name="Fernando Ramirez">
+                <address
+                    jcr:primaryType="nt:unstructured"
+                    city="Ags"
+                    street="Teseo 138"
+                    zip="20907"/>
+                <phoneNumbers jcr:primaryType="nt:unstructured">
+                    <mobile
+                        jcr:primaryType="nt:unstructured"
+                        number="449 191-6400"
+                        type="mobile"/>
+                </phoneNumbers>
+                <occupations
+                    jcr:primaryType="nt:unstructured"
+                    occupation1="Software Engineer"/>
+            </Fernando_Ramirez>
+        </people>
+    </data>
+</jcr:root>

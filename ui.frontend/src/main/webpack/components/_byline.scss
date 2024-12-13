@@ -1,0 +1,104 @@
+.cmp-byline {
+    $imageSize: 80px;
+
+    .cmp-byline__card {
+        height: $imageSize + 20px;
+    
+        .cmp-byline__image {
+            float: left;
+
+            /* This class targets a Core Component Image CSS class */
+            .cmp-image__image {
+                width: $imageSize;
+                height: $imageSize;
+                border-radius: $imageSize / 2;
+                object-fit: cover;
+            }
+        }
+
+        .cmp-byline__name {
+            font-size: $font-size-medium;
+            font-family: $font-family-serif;
+            padding-top: 0.5rem;
+            margin-left: $imageSize + 25px;
+            margin-bottom: 0px;
+            margin-top:0rem;
+        }
+
+        .cmp-byline__occupations {
+            margin-left: $imageSize + 25px;
+            color: $gray;
+            font-size: $font-size-xsmall;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+
+        .cmp-byline__email_and_phone {
+            margin-left: $imageSize + 25px;
+            font-size: $font-size-xsmall;
+            display: flex;
+            align-items: center;
+
+            .cmp-byline__email {
+                text-decoration: none;
+                margin-right: 1rem;
+            }
+
+            .cmp-byline__separator {
+                margin-right: 1rem;
+                color: $gray;
+            }
+
+            .cmp-byline__phone {
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .cmp-byline__summary_bio {
+        margin-top: 1rem;
+        font-size: $font-size-medium;
+        color: $black;
+        display: none;
+    }
+}
+.byline.cmp-byline__personal_page--display {
+
+    $imageSize: 300px;
+
+    .cmp-byline__card {
+        height: $imageSize + 20px;
+
+        .cmp-byline__image {
+            float: left;
+
+            /* This class targets a Core Component Image CSS class */
+            .cmp-image__image {
+                width: $imageSize;
+                height: $imageSize;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }
+
+        .cmp-byline__name {
+            font-size: $font-size-large;
+            font-family: $font-family-serif;
+            margin-left: $imageSize + 25px;
+        }
+
+        .cmp-byline__occupations {
+            margin-left: $imageSize + 25px;
+            font-size: $font-size-medium;
+        }
+
+        .cmp-byline__email_and_phone {
+            margin-left: $imageSize + 25px;
+            font-size: $font-size-medium;
+        }
+    }
+        
+    .cmp-byline__summary_bio {
+        display: block;
+    }
+}

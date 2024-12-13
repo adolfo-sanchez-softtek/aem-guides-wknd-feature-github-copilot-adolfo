@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-10-10T11:42:32.015-06:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2024-10-10T11:37:54.277-06:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2024-10-10T11:38:20.924-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-10-10T11:39:33.750-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="WKND Logo"
+                sling:resourceType="wknd/components/image"
+                altValueFromDAM="true"
+                displayPopupTitle="true"
+                fileReference="/content/dam/wknd/en/site/wknd-logo-dk.svg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self"
+                linkURL="/content/wknd/us/en"
+                titleValueFromDAM="false">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </image>
+            <navigation
+                jcr:lastModified="{Date}2024-10-10T11:40:09.572-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/navigation"
+                collectAllPages="false"
+                disableShadowing="false"
+                navigationRoot="/content/wknd/us/en"
+                skipNavigationRoot="false"
+                structureDepth="1"
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                </cq:responsive>
+            </navigation>
+            <search
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/search"
+                searchRoot="/content/wknd/us">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </search>
+            <logo/>
+        </root>
+    </jcr:content>
+</jcr:root>

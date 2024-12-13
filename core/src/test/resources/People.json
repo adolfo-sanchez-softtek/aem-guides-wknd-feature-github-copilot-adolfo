@@ -1,0 +1,35 @@
+{
+    "people":[
+      {
+         "peopleId":1001,
+         "name":"Stacey Roswells",
+         "age":25,
+         "email":"stacey.roswells@gmail.com",
+         "address":{
+            "street":"951 New St",
+            "city":"New York",
+            "zip":"98765"
+         },
+         "phoneNumber":[
+            {
+               "type":"mobile",
+               "number":"212 555-9876"
+            },
+            {
+               "type":"home",
+               "number":"212 555-1234"
+            },
+            {
+               "type":"fax",
+               "number":"646 555-4567"
+            }
+         ],
+         "Occupations":[
+            "Photographer",
+            "Blogger",
+            "YouTuber"
+         ],
+         "summaryBiography":"Stacey Roswells is a dynamic content creator with a flair for capturing life’s moments through blogging, photography, and vlogging. Known for her engaging storytelling and eye for detail, Stacey shares her adventures and insights on her popular blog and YouTube channel, where she covers everything from travel and lifestyle to photography tips and personal growth. With a unique style that blends authenticity with creativity, she has built a dedicated community of followers who are inspired by her genuine voice and artistic vision. Stacey’s work not only captures beautiful imagery but also celebrates the joy of exploring new perspectives and connecting with others."
+      }
+    ]
+ }

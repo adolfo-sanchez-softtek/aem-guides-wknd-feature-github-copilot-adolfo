@@ -1,0 +1,910 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/src/index.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./node_modules/glob-import-loader/index.js??ruleSet[1].rules[1].use[4]!./src/main/webpack/site/main.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+/* devanagari */
+@font-face {
+  font-family: "Asar";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Asar Regular"), local("Asar-Regular"), url(//fonts.gstatic.com/s/asar/v7/sZlLdRyI6TBIbkAaDZtQS6AvcA.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Asar";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Asar Regular"), local("Asar-Regular"), url(//fonts.gstatic.com/s/asar/v7/sZlLdRyI6TBIbk8aDZtQS6AvcA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Asar";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Asar Regular"), local("Asar-Regular"), url(//fonts.gstatic.com/s/asar/v7/sZlLdRyI6TBIbkEaDZtQS6A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdu3cOWxy40.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url(//fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+@font-face {
+  font-family: "wknd-icon-font";
+  src: url("../resources/fonts/wknd-icon-font.ttf?o7vuvy") format("truetype"), url("../resources/fonts/wknd-icon-font.woff?o7vuvy") format("woff"), url("../resources/fonts/wknd-icon-font.svg?o7vuvy#wknd-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class$=__icon], [class*=__icon], [class$=-icon], [class*=-icon] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "wknd-icon-font" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.25rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wkndicon-menu:before {
+  content: "\e916";
+}
+
+.wkndicon-google:before {
+  content: "\e900";
+}
+
+.wkndicon-twitter:before {
+  content: "\e901";
+}
+
+.wkndicon-facebook:before {
+  content: "\e902";
+}
+
+.wkndicon-instagram:before {
+  content: "\e903";
+}
+
+.wkndicon-social-share:before {
+  content: "\e904";
+}
+
+.wkndicon-map:before {
+  content: "\e905";
+}
+
+.wkndicon-alert:before {
+  content: "\e906";
+}
+
+.wkndicon-download:before {
+  content: "\e907";
+}
+
+.wkndicon-info:before {
+  content: "\e908";
+}
+
+.wkndicon-email:before {
+  content: "\e909";
+}
+
+.wkndicon-comment:before {
+  content: "\e90a";
+}
+
+.wkndicon-share:before {
+  content: "\e90b";
+}
+
+.wkndicon-user:before {
+  content: "\e90c";
+}
+
+.wkndicon-home:before {
+  content: "\e90d";
+}
+
+.wkndicon-right-arrow:before {
+  content: "\e90e";
+}
+
+.wkndicon-left-arrow:before {
+  content: "\e90f";
+}
+
+.wkndicon-minus:before {
+  content: "\e910";
+}
+
+.wkndicon-plus:before {
+  content: "\e911";
+}
+
+.wkndicon-location:before {
+  content: "\e912";
+}
+
+.wkndicon-search:before {
+  content: "\e913";
+}
+
+.wkndicon-delete:before {
+  content: "\e914";
+}
+
+.wkndicon-cart:before {
+  content: "\e915";
+}
+
+.wkndicon-menu:before {
+  content: "\e916";
+}
+
+.wkndicon-lock:before {
+  content: "\e98f";
+}
+
+.wkndicon-unlocked:before {
+  content: "\e990";
+}
+
+.wkndicon-play3:before {
+  content: "\ea1c";
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+  color: #202020;
+  line-height: 1.5;
+}
+body .root {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.5;
+  color: #202020;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-size: 40px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 16px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+a {
+  color: #0045FF;
+  text-decoration: none;
+}
+
+h1 a, h2 a, h3 a {
+  color: #202020;
+}
+
+p {
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.aem-GridColumn {
+  padding: 0 14px;
+}
+
+.responsivegrid.aem-GridColumn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cmp-breadcrumb .cmp-breadcrumb__list {
+  padding: 12px 12px 0px 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  border-radius: 0px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .cmp-breadcrumb .cmp-breadcrumb__list {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+}
+.cmp-breadcrumb .cmp-breadcrumb__item {
+  display: inline-block;
+  padding: 10px 5px;
+  text-transform: uppercase;
+}
+.cmp-breadcrumb .cmp-breadcrumb__item:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "wknd-icon-font" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.25rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  content: "\ea1c";
+  color: #0045FF;
+  padding-right: 5px;
+}
+.cmp-breadcrumb .cmp-breadcrumb__item:first-child {
+  padding-left: 0;
+}
+.cmp-breadcrumb .cmp-breadcrumb__item:first-child:before {
+  content: none;
+}
+.cmp-breadcrumb .cmp-breadcrumb__item-link {
+  color: #202020;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cmp-breadcrumb .cmp-breadcrumb__item-link:first {
+  padding-left: 0px;
+}
+
+.cmp-byline .cmp-byline__card {
+  height: 100px;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__image {
+  float: left;
+  /* This class targets a Core Component Image CSS class */
+}
+.cmp-byline .cmp-byline__card .cmp-byline__image .cmp-image__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__name {
+  font-size: 24px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  padding-top: 0.5rem;
+  margin-left: 105px;
+  margin-bottom: 0px;
+  margin-top: 0rem;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__occupations {
+  margin-left: 105px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__email_and_phone {
+  margin-left: 105px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__email_and_phone .cmp-byline__email {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__email_and_phone .cmp-byline__separator {
+  margin-right: 1rem;
+  color: #696969;
+}
+.cmp-byline .cmp-byline__card .cmp-byline__email_and_phone .cmp-byline__phone {
+  text-decoration: none;
+}
+.cmp-byline .cmp-byline__summary_bio {
+  margin-top: 1rem;
+  font-size: 24px;
+  color: #202020;
+  display: none;
+}
+
+.byline.cmp-byline__personal_page--display .cmp-byline__card {
+  height: 320px;
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__card .cmp-byline__image {
+  float: left;
+  /* This class targets a Core Component Image CSS class */
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__card .cmp-byline__image .cmp-image__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__card .cmp-byline__name {
+  font-size: 36px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  margin-left: 325px;
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__card .cmp-byline__occupations {
+  margin-left: 325px;
+  font-size: 24px;
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__card .cmp-byline__email_and_phone {
+  margin-left: 325px;
+  font-size: 24px;
+}
+.byline.cmp-byline__personal_page--display .cmp-byline__summary_bio {
+  display: block;
+}
+
+.cmp-download {
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cmp-download .cmp-download__title {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.cmp-download .cmp-download__title-link:after {
+  content: none;
+}
+.cmp-download .cmp-download__description {
+  font-weight: 600;
+}
+.cmp-download .cmp-download__description p {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+.cmp-download .cmp-download__properties {
+  float: left;
+  width: 100%;
+  margin-top: 0.25em;
+}
+.cmp-download .cmp-download__property {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #696969;
+  float: left;
+}
+.cmp-download .cmp-download__property-label {
+  display: none;
+}
+.cmp-download .cmp-download__property-content {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  margin-right: 1em;
+}
+.cmp-download .cmp-download__action {
+  background-color: #202020;
+  color: #ffffff;
+  float: left;
+  height: 48px;
+}
+.cmp-download .cmp-download__action-text {
+  padding-top: 16px;
+  padding-left: 2.25em;
+  padding-right: 2.5em;
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.cmp-download .cmp-download__action-text:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "wknd-icon-font" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.25rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e907";
+  padding-right: 0.5em;
+  margin-top: -0.1em;
+  font-size: 1.1rem;
+  float: left;
+}
+
+.cmp-helloworld__item-label {
+  margin-bottom: 0;
+}
+
+.cmp-helloworld__item-output {
+  margin-top: 0;
+}
+
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+.cmp-image {
+  width: 100%;
+  float: left;
+}
+.cmp-image .cmp-image__image {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.cmp-image .cmp-image__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: -0.25em;
+  float: left;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+/*
+.list {
+    float: left;
+    width: 100%;
+}
+
+*/
+.cmp-list {
+  padding-left: 0;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cmp-list .cmp-list__item {
+  list-style: none;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.cmp-list .cmp-list__item::before {
+  content: none;
+  position: unset;
+}
+.cmp-list .cmp-list__item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid #EBEBEB;
+  min-height: 85px;
+}
+.cmp-list .cmp-list__item-link:hover {
+  background: #0045FF;
+  border-color: #202020;
+}
+.cmp-list .cmp-list__item-link:hover .cmp-list__item-title {
+  text-decoration: none;
+}
+.cmp-list .cmp-list__item-title {
+  color: #202020;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.cmp-list .cmp-list__item-date {
+  color: #696969;
+  font-size: 12px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.cmp-navigation {
+  padding-top: 15px;
+  float: right;
+}
+
+.cmp-navigation__group {
+  list-style: none;
+  margin: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.cmp-navigation__item {
+  display: block;
+  float: left;
+}
+
+.cmp-navigation__item-link {
+  color: #202020;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+.cmp-navigation__item-link:hover, .cmp-navigation__item-link:focus {
+  background-color: #0045FF;
+}
+
+/* highlight only level 1 */
+.cmp-navigation__item--active .cmp-navigation__item-link {
+  background-color: #0045FF;
+}
+
+/* WKND Search Header styles */
+.cmp-search {
+  padding-top: 10px;
+  float: right;
+}
+
+.cmp-search__clear-icon, .cmp-search__icon {
+  top: 0.8rem;
+}
+
+.cmp-search__input {
+  background-color: rgba(235, 235, 235, 0.5411764706);
+  color: #202020;
+  font-size: 12px;
+  border-radius: 0px;
+  border: none;
+  height: 40px;
+  width: calc(100% - 4rem);
+}
+.cmp-search__input:focus {
+  background-color: #ffffff;
+  outline: none !important;
+  border: 1px solid #202020;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.cmp-search__input::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+.cmp-search__input::-moz-placeholder {
+  text-transform: uppercase;
+}
+.cmp-search__input:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+.cmp-search__input::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+.cmp-search__input::placeholder {
+  text-transform: uppercase;
+}
+
+.cmp-search__results {
+  margin-top: 0.75em;
+  background: #202020;
+  width: 20rem;
+  left: unset;
+  right: 0;
+  max-height: unset;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.cmp-search__item {
+  color: #EBEBEB;
+  font-size: 14px;
+  height: 50px;
+  text-overflow: ellipsis;
+  padding: 0.5em;
+  margin-top: 0.25em;
+}
+
+a.cmp-search__item:hover {
+  text-decoration: underline;
+}
+
+.cmp-search__item-mark {
+  color: #202020;
+  background-color: #F7F7F7;
+}
+
+.cmp-separator {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.cmp-separator__horizontal-rule {
+  border-width: 1px;
+  border-style: solid;
+  color: #EBEBEB;
+}
+
+/* WKND Text Quote style */
+.cmp-text--quote .cmp-text {
+  background-color: #EBEBEB;
+  margin: 1em 0em;
+  padding: 1em;
+}
+.cmp-text--quote .cmp-text blockquote {
+  border: none;
+  font-size: 36px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  padding: 14px 14px;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.cmp-text--quote .cmp-text blockquote:after {
+  border-bottom: 2px solid #0045FF; /*yellow border */
+  content: "";
+  display: block;
+  position: relative;
+  top: 0.25em;
+  width: 80px;
+}
+.cmp-text--quote .cmp-text p {
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+}
+
+/* Add Title Underline Style */
+.cmp-title--underline .cmp-title__text:after {
+  display: block;
+  width: 84px;
+  padding-top: 8px;
+  content: "";
+  border-bottom: 2px solid #0045FF;
+}
+
+main.container {
+  padding: 0.5em 1em;
+  max-width: 1084px;
+  float: unset !important;
+  margin: 0 auto !important;
+  clear: both !important;
+}
+
+footer.experiencefragment {
+  background-color: #202020;
+  color: #EBEBEB;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  /* Hightlight active navigation item */
+}
+footer.experiencefragment .cmp-experiencefragment {
+  max-width: 1084px;
+  margin: 0 auto;
+}
+footer.experiencefragment p {
+  font-size: 14px;
+}
+footer.experiencefragment .cmp-navigation {
+  float: left;
+}
+footer.experiencefragment .cmp-navigation__item-link {
+  color: #EBEBEB;
+}
+footer.experiencefragment .cmp-navigation__item-link:hover, footer.experiencefragment .cmp-navigation__item-link:focus {
+  text-decoration: underline;
+  background-color: unset;
+}
+footer.experiencefragment .cmp-navigation__item--active .cmp-navigation__item-link {
+  text-decoration: underline;
+  background-color: unset;
+}
+footer.experiencefragment .cmp-separator {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+footer.experiencefragment .cmp-separator__horizontal-rule {
+  border: none;
+}
+
+header.experiencefragment {
+  padding: 50px 0px;
+}
+header.experiencefragment .cmp-experiencefragment {
+  max-width: 1084px;
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-06T12:17:03.358-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/people"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stacey Roswells"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <byline
+                    cq:styleIds="[1730916161485]"
+                    jcr:created="{Date}2024-11-06T11:39:34.964-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-06T12:16:58.774-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/byline"
+                    alt="Stacey Roswells"
+                    altValueFromDAM="false"
+                    altValueFromPageImage="true"
+                    email="stacey.roswells@gmail.com"
+                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/Stacey-roswells.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    name="Stacey Roswells"
+                    occupations="[Photographer,Blogger,YouTuber]"
+                    peopleId="1001"
+                    phoneNumber="212 555-9876"
+                    summaryBiography="Stacey Roswells is a dynamic content creator with a flair for capturing life’s moments through blogging, photography, and vlogging. Known for her engaging storytelling and eye for detail, Stacey shares her adventures and insights on her popular blog and YouTube channel, where she covers everything from travel and lifestyle to photography tips and personal growth. With a unique style that blends authenticity with creativity, she has built a dedicated community of followers who are inspired by her genuine voice and artistic vision. Stacey’s work not only captures beautiful imagery but also celebrates the joy of exploring new perspectives and connecting with others."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

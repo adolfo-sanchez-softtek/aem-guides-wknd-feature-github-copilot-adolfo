@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-06T13:16:36.184-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/people"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Fernando Ramirez"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <byline
+                    cq:styleIds="[1730916161485]"
+                    jcr:created="{Date}2024-11-06T13:14:16.344-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-06T13:16:32.854-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/byline"
+                    alt="Fernando Ramirez"
+                    altValueFromDAM="false"
+                    email="fernando.ramirez@softtek.com"
+                    fileReference="/content/dam/wknd/en/contributors/anonymous_m.jpg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    name="Fernando Ramirez"
+                    occupations="[Content Creator,Software Engineer]"
+                    peopleId="1005"
+                    phoneNumber="449 191-6400"
+                    summaryBiography="Fernando Ramirez is a versatile content creator and software engineer who bridges the gap between technology and creativity. With a background in software development, Fernando brings a technical edge to his content, crafting engaging videos, tutorials, and articles that make complex tech topics accessible and enjoyable. Whether he’s coding innovative projects or sharing insights into the latest tech trends, Fernando combines his engineering expertise with a passion for teaching and storytelling. His content not only educates but also inspires his audience to explore the endless possibilities within the digital world."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

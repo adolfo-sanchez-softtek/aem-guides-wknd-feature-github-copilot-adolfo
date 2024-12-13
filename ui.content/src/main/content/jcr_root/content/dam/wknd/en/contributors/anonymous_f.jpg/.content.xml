@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:ns1="http://xmp.gettyimages.com/gift/1.0/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4c11a73c-f831-4e7c-b4eb-4406416f36e2">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2024-11-06T13:09:48.360-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2024-11-06T13:09:48.156-06:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}1.3600000143051147"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}2.0399999618530273"
+            dam:Progressive="yes"
+            dam:sha1="a47a08528a348b7f8fa0262bde8b4f39fe2e2d47"
+            dam:size="{Long}11695"
+            dc:creator="[Koldunov]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:description="Unknown female person silhouette in studio. Concept of depression, stress or anonymous"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            ns1:AssetID="{Long}1188176661"
+            photoshop:Credit="Getty Images"
+            plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING"
+            tiff:ImageLength="{Long}408"
+            tiff:ImageWidth="{Long}612"
+            tiff:XResolution="300/1"
+            tiff:YResolution="300/1"
+            xmpRights:WebStatement="https://www.istockphoto.com/legal/license-agreement?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl">
+            <plus:Licensor
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    plus:LicensorURL="https://www.istockphoto.com/photo/license-gm1188176661-?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl"
+                    xmpNodeType="xmpStruct"/>
+            </plus:Licensor>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
